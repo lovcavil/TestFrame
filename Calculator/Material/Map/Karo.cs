@@ -8,7 +8,7 @@ namespace StupidMonkey.Material.Map
 {
     interface IAdjacent<T>
     {
-        T[] Adjacent();
+        T[] Adjacent { get; }
     }
 
     interface IPlot<T> : IAdjacent<T>

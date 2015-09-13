@@ -8,6 +8,6 @@ namespace StupidMonkey.CoreLogic
 {
     abstract class Factory<T>
     {
-        T Make(String[] data);
+        /// abstract T Make(String[] data);
     }
 }
