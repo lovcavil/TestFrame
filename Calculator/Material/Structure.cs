@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StupidMonkey.Material.Map
+namespace StupidMonkey.Material
 {
-    class LocFactory:List<Location[]>
+    class Structure
     {
-        Location[][] Base = new Location[1][];
+        public string Name;
     }
 }

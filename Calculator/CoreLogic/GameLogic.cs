@@ -40,6 +40,7 @@ namespace CoreLogic
             log.Start(vm);
             var bf=new BlockFactory();
             bf.Make(new String[1]);
+            bf.Make(new String[1]);
             var mth = new System.Threading.Thread(mainloop);
 
             mth.Start();

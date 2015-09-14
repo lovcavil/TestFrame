@@ -32,12 +32,12 @@ namespace StupidMonkey.Material.Map
             Left=3
         }
 
-        TKaro[] AdjacentLocations=new TKaro[8];
+        public TKaro[] AdjacentLocations=new TKaro[8];
 
-        public TKaro[] Adjacent{
+      public TKaro[] Adjacent{
             get { return AdjacentLocations; }
-            set { AdjacentLocations = value; }
-        }
+           set { AdjacentLocations = value; }
+       }
 
         public TKaro Up{
             get { return AdjacentLocations[(int)Direction.Up]; }

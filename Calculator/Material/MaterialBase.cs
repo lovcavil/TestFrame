@@ -12,12 +12,12 @@ namespace StupidMonkey.Material
         Liquid=200,
         Gas=300
     }
-    class MaterialBase
+    class Material
     {
 
         String name;
 
-        public String Name
+        public string Name
         {
             get { return name; }
             set { name = value; }
@@ -29,13 +29,9 @@ namespace StupidMonkey.Material
             get { return density; }
             set { density = value; }
         }
-        States state;
 
-        public States State
-        {
-            get { return state; }
-            set { /*state = value;*/ }
-        }
+        State state;
+
     }
 
     class Element
