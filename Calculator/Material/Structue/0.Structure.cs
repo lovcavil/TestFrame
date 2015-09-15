@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StupidMonkey.Material
+namespace StupidMonkey.Material.Structure
 {
-    class Structure
+    abstract class Structure
     {
         public string Name;
+        public Entity[] content;
     }
 }

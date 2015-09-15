@@ -58,6 +58,7 @@ namespace CoreLogic
     {
         StupidMonkey.CalculatorViewModel vm;
         int count = 0;
+        string data;
         public void Start(StupidMonkey.CalculatorViewModel vm)
         {
             this.vm = vm;
@@ -66,7 +67,9 @@ namespace CoreLogic
         }
         public void Update(object sender, TimeEventArgs e)
         {
-            vm.Status = count++.ToString();
+            data +=( count++.ToString()+" ");
+            vm.Status = data;
+
         }
     }
 }

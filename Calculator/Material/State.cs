@@ -10,4 +10,11 @@ namespace StupidMonkey.Material
     {
         public string Name;
     }
+
+    class Solid : State
+    {
+
+    }
+
+
 }

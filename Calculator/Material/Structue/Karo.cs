@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StupidMonkey.Material.Map
+namespace StupidMonkey.Material.Structure
 {
     interface IAdjacent<T>
     {
@@ -17,12 +17,11 @@ namespace StupidMonkey.Material.Map
         T Down { get; }
         T Left { get; }
         T Right { get; }
-
     }
     /// <summary>
     /// 接邻实现 
     /// </summary>
-    class Karo<TKaro> : IPlot<TKaro>
+    class Karo<TKaro> :Entity,IPlot<TKaro>
     {
         public enum Direction
         {
@@ -34,10 +33,11 @@ namespace StupidMonkey.Material.Map
 
         public TKaro[] AdjacentLocations=new TKaro[8];
 
-      public TKaro[] Adjacent{
+        public TKaro[] Adjacent
+        {
             get { return AdjacentLocations; }
-           set { AdjacentLocations = value; }
-       }
+            set { AdjacentLocations = value; }
+        }
 
         public TKaro Up{
             get { return AdjacentLocations[(int)Direction.Up]; }
@@ -51,6 +51,7 @@ namespace StupidMonkey.Material.Map
         public TKaro Left{
             get { return AdjacentLocations[(int)Direction.Left]; }
         }
+
 
 
     }

@@ -24,33 +24,15 @@
       <FileName>CoreLogic\CoreTimer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="StupidMonkey.Material.Map.Karo&lt;TKaro&gt;">
-    <Position X="8" Y="0.5" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Nested Types" Collapsed="false" />
-    </Compartments>
-    <NestedTypes>
-      <Enum Name="StupidMonkey.Material.Map.Karo&lt;TKaro&gt;.Direction">
-        <TypeIdentifier>
-          <NewMemberFileName>Material\Map\Karo.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
-    <TypeIdentifier>
-      <HashCode>AAAAAAIAAAAAAAAAAAIAAAAAAAIAAAAACACAAAAAAAI=</HashCode>
-      <FileName>Material\Map\Karo.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.1" />
-  </Class>
   <Class Name="StupidMonkey.Material.Map.Location">
-    <Position X="8" Y="5" Width="1.5" />
+    <Position X="8.25" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Material\Map\Location.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="StupidMonkey.Material.Map.Block">
-    <Position X="10.25" Y="5" Width="1.5" />
+    <Position X="10.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>Material\Map\Block.cs</FileName>
@@ -63,19 +45,76 @@
       <FileName>Material\Map\BlockFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="StupidMonkey.Material.Map.IAdjacent&lt;T&gt;">
-    <Position X="5.75" Y="2" Width="1.5" />
+  <Class Name="StupidMonkey.Material.Structure.Structure">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Material\Structue\0.Structure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.Material.Structure.Karo&lt;TKaro&gt;">
+    <Position X="9.25" Y="2.25" Width="2" />
+    <NestedTypes>
+      <Enum Name="StupidMonkey.Material.Structure.Karo&lt;TKaro&gt;.Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Material\Structue\Karo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAIAAAAAAAIAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Material\Structue\Karo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" />
+  </Class>
+  <Class Name="StupidMonkey.Material.State">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Material\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.Material.Material">
+    <Position X="16.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQBAAAEAQAEAAAAAAAAAAA=</HashCode>
+      <FileName>Material\MaterialBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.Material.Element">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Material\MaterialBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.Material.Entity">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABAAAA=</HashCode>
+      <FileName>Material\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="StupidMonkey.Material.Structure.IAdjacent&lt;T&gt;">
+    <Position X="6" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Material\Map\Karo.cs</FileName>
+      <FileName>Material\Structue\Karo.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="StupidMonkey.Material.Map.IPlot&lt;T&gt;">
-    <Position X="5.75" Y="3.25" Width="1.5" />
+  <Interface Name="StupidMonkey.Material.Structure.IPlot&lt;T&gt;">
+    <Position X="6" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
-      <FileName>Material\Map\Karo.cs</FileName>
+      <FileName>Material\Structue\Karo.cs</FileName>
     </TypeIdentifier>
   </Interface>
+  <Enum Name="StupidMonkey.Material.States">
+    <Position X="16" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Material\MaterialBase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Microsoft YaHei UI" Size="9" />
 </ClassDiagram>
