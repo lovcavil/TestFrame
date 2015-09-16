@@ -128,9 +128,11 @@ namespace StupidMonkey
 		viewModel.Status="ssfagadhs";
         var gl=new GameLogic(viewModel);
         gl.run();
+    }
+        private void OnSave(object sender, ExecutedRoutedEventArgs e)
+        {
+            containerManager.ShowExports();
+        }
 
     }
-
-
-  }
 }

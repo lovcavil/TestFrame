@@ -25,28 +25,31 @@
     </TypeIdentifier>
   </Class>
   <Class Name="StupidMonkey.Material.Map.Location">
-    <Position X="8.25" Y="6" Width="1.5" />
+    <Position X="8.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Material\Map\Location.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="StupidMonkey.Material.Map.Block">
-    <Position X="10.5" Y="6" Width="1.5" />
+    <Position X="10.5" Y="6" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="StupidMonkey.Material.Map.Block.BlockFactory">
+        <TypeIdentifier>
+          <NewMemberFileName>Material\Map\BlockFactory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAEBAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>Material\Map\Block.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="StupidMonkey.Material.Map.BlockFactory">
-    <Position X="12.25" Y="5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
-      <FileName>Material\Map\BlockFactory.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="StupidMonkey.Material.Structure.Structure">
-    <Position X="12" Y="1.25" Width="1.5" />
+    <Position X="6.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Material\Structue\0.Structure.cs</FileName>
@@ -68,21 +71,21 @@
     <Lollipop Orientation="Left" Position="0.1" />
   </Class>
   <Class Name="StupidMonkey.Material.State">
-    <Position X="14" Y="4" Width="1.5" />
+    <Position X="15.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Material\State.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="StupidMonkey.Material.Material">
-    <Position X="16.25" Y="3" Width="1.5" />
+    <Position X="15.25" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQBAAAEAQAEAAAAAAAAAAA=</HashCode>
       <FileName>Material\MaterialBase.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="StupidMonkey.Material.Element">
-    <Position X="14.25" Y="2" Width="1.5" />
+    <Position X="13" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Material\MaterialBase.cs</FileName>
@@ -110,7 +113,7 @@
     </TypeIdentifier>
   </Interface>
   <Enum Name="StupidMonkey.Material.States">
-    <Position X="16" Y="6.25" Width="1.5" />
+    <Position X="20.25" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
       <FileName>Material\MaterialBase.cs</FileName>

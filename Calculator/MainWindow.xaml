@@ -47,7 +47,7 @@
                     <RibbonButton Label="Show Exports" LargeImageSource="Images/AddIn.png" ToolTip="Show Exports" Command="local:CalculatorCommands.ShowExports" />
                     <RibbonButton Label="Clear Log" LargeImageSource="Images/Delete.png" ToolTip="Clear Log Information" Command="local:CalculatorCommands.ClearLog" />
                     <RibbonButton Label="Start" LargeImageSource="Images/Refresh.png" ToolTip="Start"  Click="RibbonButton_Click" />
-
+                    <RibbonButton Label="save" LargeImageSource="Images/Refresh.png" ToolTip="Save" Command="local:CalculatorCommands.Save" />
                 </RibbonGroup>
             </RibbonTab>
         </Ribbon>

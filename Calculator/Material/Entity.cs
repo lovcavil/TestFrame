@@ -10,9 +10,9 @@ namespace StupidMonkey.Material
 {
     class Entity
     {
-        public float mass;
-        public Material material;
-        public Structure.Structure structure;
+        public float mass=0;
+        public Material material=new Material();
+        public Structure.Structure structure=new Structure.Structure();
 
     }
 }

@@ -38,7 +38,7 @@ namespace CoreLogic
             CoreTimer.Start();
             var log= new Log();
             log.Start(vm);
-            var bf=new BlockFactory();
+            var bf=new Block.BlockFactory();
             bf.Make(new String[1]);
             bf.Make(new String[1]);
             var mth = new System.Threading.Thread(mainloop);
