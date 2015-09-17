@@ -58,15 +58,18 @@
     <Compile Include="CoreLogic\CoreTimer.cs" />
     <Compile Include="CoreLogic\Factory.cs" />
     <Compile Include="CoreLogic\GameLogic.cs" />
+    <Compile Include="CoreLogic\RootNodeEntity.cs" />
     <Compile Include="Material\Entity.cs" />
     <Compile Include="Material\Map\Block.cs" />
     <Compile Include="Material\Map\BlockFactory.cs" />
     <Compile Include="Material\Map\Location.cs" />
     <Compile Include="Material\Map\Map.cs" />
-    <Compile Include="Material\Structue\Karo.cs" />
+    <Compile Include="Material\Structure\1.VoidStructure.cs" />
+    <Compile Include="Material\Structure\2.List.cs" />
+    <Compile Include="Material\Structure\Karo.cs" />
     <Compile Include="Material\MaterialBase.cs" />
     <Compile Include="Material\State.cs" />
-    <Compile Include="Material\Structue\0.Structure.cs" />
+    <Compile Include="Material\Structure\0.Structure.cs" />
     <Compile Include="UriToBitmapConverter.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -137,7 +140,7 @@
     <Resource Include="Images\Delete.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CoreLogic\GameSystem\" />
+    <Folder Include="CoreLogic\DataSystem\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

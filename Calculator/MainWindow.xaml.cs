@@ -5,7 +5,7 @@ using System.Windows.Controls.Ribbon;
 using System.Windows.Data;
 using System.Windows.Input;
 
-using CoreLogic;
+using StupidMonkey.CoreLogic;
 
 namespace StupidMonkey
 {
@@ -131,7 +131,7 @@ namespace StupidMonkey
     }
         private void OnSave(object sender, ExecutedRoutedEventArgs e)
         {
-            containerManager.ShowExports();
+            viewModel.Status = "11111111111";
         }
 
     }

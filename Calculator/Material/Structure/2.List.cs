@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace StupidMonkey.Material.Structure
 {
-    class Structure
+    class ListS:Structure
     {
-        public string Name;
-        public Entity[] content;
     }
 }

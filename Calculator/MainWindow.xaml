@@ -12,6 +12,7 @@
         <CommandBinding Command="local:CalculatorCommands.RefreshExtensions" Executed="OnRefreshExtensions" />
         <CommandBinding Command="local:CalculatorCommands.ShowExports" Executed="OnShowExports" />
         <CommandBinding Command="local:CalculatorCommands.ClearLog" Executed="OnClearLog" />
+        <CommandBinding Command="local:CalculatorCommands.Save" Executed="OnSave" />
         <CommandBinding Command="local:CalculatorCommands.CloseExtension" Executed="OnCloseExtension" />
     </Window.CommandBindings>
     <Grid>

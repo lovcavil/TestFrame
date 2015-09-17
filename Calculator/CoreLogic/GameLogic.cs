@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using StupidMonkey.Material;
 using StupidMonkey.Material.Map;
 
-namespace CoreLogic
+namespace StupidMonkey.CoreLogic
 {
     public class GameLogic
     {
@@ -15,7 +16,8 @@ namespace CoreLogic
             Noexist=0,
             Initializing=10,
             Running=20,
-            Finalizing=30
+            Pause=30,
+            Finalizing=40
         }
 
         public gameLogicStatus Status
@@ -26,7 +28,10 @@ namespace CoreLogic
         private gameLogicStatus status = gameLogicStatus.Noexist;
 
         #endregion
-
+        
+        /// <summary>
+        /// 临时显示接口 一个string
+        /// </summary>
         StupidMonkey.CalculatorViewModel vm;
         public GameLogic(StupidMonkey.CalculatorViewModel vm)
         {
@@ -38,14 +43,20 @@ namespace CoreLogic
             CoreTimer.Start();
             var log= new Log();
             log.Start(vm);
+
+            RootNodeEntity rne;
             var bf=new Block.BlockFactory();
             bf.Make(new String[1]);
             bf.Make(new String[1]);
-            var mth = new System.Threading.Thread(mainloop);
 
+
+            var mth = new System.Threading.Thread(mainloop);
             mth.Start();
         }
+        public static void initialize()
+        {
 
+        }
         public static void mainloop()
         {
 

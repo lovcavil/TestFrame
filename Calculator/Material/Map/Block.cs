@@ -14,7 +14,7 @@ namespace StupidMonkey.Material.Map
         public const int Area = Length * Width;
 
         /// <summary>
-        ///  第一与最后放空 
+        ///  第一与最后放空  访问方式不合理需改
         /// </summary>
         
         public Location this[int x, int y]

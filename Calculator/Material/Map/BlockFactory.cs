@@ -10,7 +10,7 @@ namespace StupidMonkey.Material.Map
     partial class Block
     {
         /// <summary>
-        /// block工厂 未并行，可能需要
+        /// block工厂 未并行，可能需要 可能需要有两种block（不同结构，有无实际内部结构）
         /// </summary>
         public class BlockFactory : Factory<Block>
         {
