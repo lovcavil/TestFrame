@@ -3,27 +3,36 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using StupidMonkey.Material.Structure;
 
 namespace StupidMonkey.CoreData.Map
 {
-    class Block:Karo<Block>
+    partial class Block:Karo<Block>
     {
         public const short Length=100;
         public const short Width = 100;
         public const int Area = Length * Width;
 
         /// <summary>
-        /// 是否需要公开 尝试私有化 第一与最后放空
+        ///  第一与最后放空  访问方式不合理需改
         /// </summary>
-        public Location[,] Inner = new Location[Length+1, Width+1];
-
+        
+        public Location this[int x, int y]
+        {
+            get { return (Location)structure.content[x* Length + y]; }
+            private set { structure.content[x * Length + y]=value; }
+        }
+        /// <summary>
+        /// 分配loc数组内元素的内存
+        /// </summary>
         public Block()
         {
+            structure.content = new Location[(Length + 2) * (Width + 2)];
             for(int i = 0; i<Length+1; i++)
             {
                 for (int j = 0; j < Width+1;j++)
                 {
-                    Inner[i, j] = new Location();
+                    this[i, j] = new Location();
                 }
             }
         }

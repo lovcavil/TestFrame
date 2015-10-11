@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using StupidMonkey.Material.Structure;
-
-
-namespace StupidMonkey.CoreData.Map
+using StupidMonkey.Material;
+namespace StupidMonkey.CoreLogic
 {
-    class Location : Karo<Location>
+    class RootNodeEntity:Entity
     {
 
     }

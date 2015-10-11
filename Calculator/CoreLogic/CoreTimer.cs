@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreLogic
+namespace StupidMonkey.CoreLogic
 {
     public class TimeEventArgs:EventArgs
     {

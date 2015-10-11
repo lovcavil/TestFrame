@@ -5,7 +5,7 @@ using System.Windows.Controls.Ribbon;
 using System.Windows.Data;
 using System.Windows.Input;
 
-using CoreLogic;
+using StupidMonkey.CoreLogic;
 
 namespace StupidMonkey
 {
@@ -128,9 +128,11 @@ namespace StupidMonkey
 		viewModel.Status="ssfagadhs";
         var gl=new GameLogic(viewModel);
         gl.run();
+    }
+        private void OnSave(object sender, ExecutedRoutedEventArgs e)
+        {
+            viewModel.Status = "11111111111";
+        }
 
     }
-
-
-  }
 }

@@ -17,12 +17,11 @@ namespace StupidMonkey.CoreData.Map
         T Down { get; }
         T Left { get; }
         T Right { get; }
-
     }
     /// <summary>
     /// 接邻实现 
     /// </summary>
-    class Karo<TKaro> : IPlot<TKaro>
+    class Karo<TKaro> :Entity,IPlot<TKaro>
     {
         public enum Direction
         {
@@ -34,7 +33,8 @@ namespace StupidMonkey.CoreData.Map
 
         public TKaro[] AdjacentLocations=new TKaro[8];
 
-      public TKaro[] Adjacent{
+        public TKaro[] Adjacent
+        {
             get { return AdjacentLocations; }
            set { AdjacentLocations = value; }
        }
@@ -51,6 +51,7 @@ namespace StupidMonkey.CoreData.Map
         public TKaro Left{
             get { return AdjacentLocations[(int)Direction.Left]; }
         }
+
 
 
     }

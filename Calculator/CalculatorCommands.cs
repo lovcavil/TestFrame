@@ -58,5 +58,15 @@ namespace StupidMonkey
       }
     }
 
-  }
+        private static ICommand save;
+        public static ICommand Save
+        {
+            get
+            {
+                return save ?? (save = new RoutedUICommand("Save", "Save", typeof(CalculatorCommands)));
+            }
+        }
+
+
+    }
 }
