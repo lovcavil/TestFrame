@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using StupidMonkey.CoreLogic;
 
-namespace StupidMonkey.Material.Map
+namespace StupidMonkey.CoreData.Map
 {
     /// <summary>
     /// block工厂 未并行，可能需要

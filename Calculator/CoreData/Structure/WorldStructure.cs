@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace StupidMonkey.Material.Map
+namespace StupidMonkey.CoreData
 {
-    class Location : Karo<Location>
+     class WorldStructure:Structure
     {
 
     }

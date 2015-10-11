@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StupidMonkey.Material
+namespace StupidMonkey.CoreData
 {
     class Entity
     {
@@ -12,6 +12,6 @@ namespace StupidMonkey.Material
         Material material;
         Structure structure;
 
-        Entity[] list;
+
     }
 }

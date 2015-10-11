@@ -58,16 +58,17 @@
     <Compile Include="CoreLogic\CoreTimer.cs" />
     <Compile Include="CoreLogic\Factory.cs" />
     <Compile Include="CoreLogic\GameLogic.cs" />
-    <Compile Include="Material\Entity.cs" />
-    <Compile Include="Material\Map\Block.cs" />
-    <Compile Include="Material\Map\BlockFactory.cs" />
-    <Compile Include="Material\Map\Location.cs" />
-    <Compile Include="Material\Map\Map.cs" />
-    <Compile Include="Material\Map\Karo.cs" />
-    <Compile Include="Material\MaterialBase.cs" />
-    <Compile Include="Material\State.cs" />
-    <Compile Include="Material\Structure.cs" />
+    <Compile Include="CoreData\Entity.cs" />
+    <Compile Include="CoreData\Map\Block.cs" />
+    <Compile Include="CoreData\Map\BlockFactory.cs" />
+    <Compile Include="CoreData\Map\Location.cs" />
+    <Compile Include="CoreData\Map\Map.cs" />
+    <Compile Include="CoreData\Map\Karo.cs" />
+    <Compile Include="CoreData\MaterialBase.cs" />
+    <Compile Include="CoreData\State.cs" />
+    <Compile Include="CoreData\Structure\Structure.cs" />
     <Compile Include="UriToBitmapConverter.cs" />
+    <Compile Include="CoreData\Structure\WorldStructure.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
