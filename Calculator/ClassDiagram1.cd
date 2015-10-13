@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="StupidMonkey.CoreData.Structure">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoreData\Structure\Structure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.CoreData.Material">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQBAAAEAQAEAAAAAAAAAAA=</HashCode>
+      <FileName>CoreData\MaterialBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.CoreData.Element" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoreData\MaterialBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.CoreData.State" Collapsed="true">
+    <Position X="2" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoreData\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.CoreData.Solid" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoreData\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.CoreData.Entity">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAADAAAA=</HashCode>
+      <FileName>CoreData\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.CoreData.WorldStructure" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoreData\Structure\WorldStructure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StupidMonkey.CoreData.Root">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoreData\Structure\RootStructure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="StupidMonkey.CoreData.States" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>CoreData\MaterialBase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using StupidMonkey.Material.Structure;
+using StupidMonkey.CoreData;
 
 namespace StupidMonkey.CoreData.Map
 {
@@ -19,15 +19,15 @@ namespace StupidMonkey.CoreData.Map
         
         public Location this[int x, int y]
         {
-            get { return (Location)structure.content[x* Length + y]; }
-            private set { structure.content[x * Length + y]=value; }
+            get { return (Location)structure.entities[x* Length + y]; }
+            private set { structure.entities[x * Length + y]=value; }
         }
         /// <summary>
         /// 分配loc数组内元素的内存
         /// </summary>
         public Block()
         {
-            structure.content = new Location[(Length + 2) * (Width + 2)];
+            structure.entities = new Location[(Length + 2) * (Width + 2)];
             for(int i = 0; i<Length+1; i++)
             {
                 for (int j = 0; j < Width+1;j++)

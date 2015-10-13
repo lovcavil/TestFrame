@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using StupidMonkey.CoreData.Map;
+using StupidMonkey.CoreLogic;
 
 namespace CoreLogic
 {
@@ -38,9 +39,13 @@ namespace CoreLogic
             CoreTimer.Start();
             var log= new Log();
             log.Start(vm);
-            var bf=new BlockFactory();
-            bf.Make(new String[1]);
-            bf.Make(new String[1]);
+            //var bf=new Block.BlockFactory();
+            //bf.Make(new String[1]);
+            //bf.Make(new String[1]);
+
+
+
+
             var mth = new System.Threading.Thread(mainloop);
 
             mth.Start();

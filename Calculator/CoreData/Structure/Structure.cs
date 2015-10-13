@@ -9,7 +9,7 @@ namespace StupidMonkey.CoreData
     class Structure
     {
         private string name;
-        private Entity[] entities;
+        public Entity[] entities;
 
         public string Name
         {

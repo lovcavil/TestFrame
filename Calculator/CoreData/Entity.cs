@@ -10,7 +10,7 @@ namespace StupidMonkey.CoreData
     {
         float Mass;
         Material material;
-        Structure structure;
+        public Structure structure;
 
 
     }

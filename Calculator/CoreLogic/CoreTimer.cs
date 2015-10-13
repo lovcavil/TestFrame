@@ -22,7 +22,7 @@ namespace StupidMonkey.CoreLogic
         private static System.Threading.Timer t; 
         public static void Start()
         {
-             t = new System.Threading.Timer(NewTick, null, TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(1));
+             t = new System.Threading.Timer(NewTick, null, TimeSpan.FromMilliseconds(100), TimeSpan.FromMilliseconds(100));
         }
 
         private static void RaiseNewTick()
