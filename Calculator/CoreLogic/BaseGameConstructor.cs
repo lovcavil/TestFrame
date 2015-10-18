@@ -4,19 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StupidMonkey.CoreData
+namespace StupidMonkey.CoreLogic
 {
-    class Node
+    class BaseGameConstructor:INodetype
     {
-        int id;
-        Nodetype nt;
         public void Update()
         {
 
         }
-    }
-    class Nodetype
-    {
-
     }
 }

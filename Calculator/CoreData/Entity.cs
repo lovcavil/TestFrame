@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace StupidMonkey.CoreData
 {
-    class Entity:Nodetype
+    class Entity: CoreLogic.INodetype
     {
         float Mass;
         //energy energy;
         Material material;
-        public Structure structure;
+        Structure structure;
 
         public void Update()
         {

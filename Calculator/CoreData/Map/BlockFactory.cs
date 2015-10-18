@@ -25,19 +25,19 @@ namespace StupidMonkey.CoreData.Map
             {
 
                 Block result = new Block();
-                for (int i = 1; i < Block.Length; i++)
-                {
-                    for (int j = 1; j < Block.Width; j++)
-                    {
-                        result[i, j].AdjacentLocations[0] = result[i, j - 1];
-                        result[i, j].AdjacentLocations[1] = result[i + 1, j];
-                        result[i, j].AdjacentLocations[2] = result[i, j + 1];
-                        result[i, j].AdjacentLocations[3] = result[i - 1, j];
-                    }
-                }
+                //for (int i = 1; i < Block.Length; i++)
+                //{
+                //    for (int j = 1; j < Block.Width; j++)
+                //    {
+                //        result[i, j].AdjacentLocations[0] = result[i, j - 1];
+                //        result[i, j].AdjacentLocations[1] = result[i + 1, j];
+                //        result[i, j].AdjacentLocations[2] = result[i, j + 1];
+                //        result[i, j].AdjacentLocations[3] = result[i - 1, j];
+                //    }
+                //}
 
 
-                Lib.Add(result);
+                //Lib.Add(result);
                 return result;
             }
         }

@@ -55,8 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="CoreData\Node.cs" />
+    <Compile Include="CoreLogic\Node.cs" />
     <Compile Include="CoreData\Structure\RootStructure.cs" />
+    <Compile Include="CoreLogic\BaseGameConstructor.cs" />
     <Compile Include="CoreLogic\CoreTimer.cs" />
     <Compile Include="CoreLogic\Factory.cs" />
     <Compile Include="CoreLogic\GameLogic.cs" />
