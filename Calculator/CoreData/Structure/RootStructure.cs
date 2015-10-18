@@ -8,21 +8,8 @@ namespace StupidMonkey.CoreData
 {
     class Root
     {
-        UpdateManager um;
-    }
-
-    class UpdateManager
-    {
-        Entity updateEntityList;
-        void Push() { }
-        void Update()
-        {
-
-        }
-    }
-    class UpdateInitials
-    {
-        int initial;
 
     }
+
+    
 }

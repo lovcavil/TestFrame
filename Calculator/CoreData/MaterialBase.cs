@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace StupidMonkey.CoreData
 { 
-    public enum States
-    {
-        Solid=100,
-        Liquid=200,
-        Gas=300
-    }
+
     class Material
     {
 

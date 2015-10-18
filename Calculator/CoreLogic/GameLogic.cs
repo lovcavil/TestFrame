@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using StupidMonkey.CoreData.Map;
-using StupidMonkey.CoreLogic;
-
-namespace CoreLogic
+using StupidMonkey.CoreData;
+namespace StupidMonkey.CoreLogic
 {
     public class GameLogic
     {
@@ -33,11 +32,28 @@ namespace CoreLogic
         {
             this.vm = vm;
         }
+
+        UpdateManager um;
+        Log log;
+
+        /// <summary>
+        /// test Initialize ---basic function only
+        /// 把每个组件都初始化
+        /// </summary>
+        void Initialize()
+        {
+            um = new UpdateManager();
+            um.Initialize();
+            log = new Log();
+            CoreTimer.Start();
+        }
+
+
         public void run()
         {
- 
-            CoreTimer.Start();
-            var log= new Log();
+            Initialize();
+            
+            
             log.Start(vm);
             //var bf=new Block.BlockFactory();
             //bf.Make(new String[1]);

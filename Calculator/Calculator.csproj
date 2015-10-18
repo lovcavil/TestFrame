@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CoreData\Node.cs" />
     <Compile Include="CoreData\Structure\RootStructure.cs" />
     <Compile Include="CoreLogic\CoreTimer.cs" />
     <Compile Include="CoreLogic\Factory.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="CoreData\MaterialBase.cs" />
     <Compile Include="CoreData\State.cs" />
     <Compile Include="CoreData\Structure\Structure.cs" />
+    <Compile Include="CoreLogic\UpdateManager.cs" />
     <Compile Include="UriToBitmapConverter.cs" />
     <Compile Include="CoreData\Structure\WorldStructure.cs" />
     <Page Include="MainWindow.xaml">

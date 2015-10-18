@@ -5,7 +5,7 @@ using System.Windows.Controls.Ribbon;
 using System.Windows.Data;
 using System.Windows.Input;
 using StupidMonkey.CoreLogic;
-using CoreLogic;
+
 
 namespace StupidMonkey
 {
