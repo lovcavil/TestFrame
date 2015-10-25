@@ -8,19 +8,27 @@ namespace StupidMonkey.CoreLogic
 {
     /// <summary>
     /// 预计拿来处理保存update initial的功能
-    /// 
+    /// child manage
     /// </summary>
     class Node
     {
+        static int id_count=0;
         int id;
         INodetype nt;
         public void Update()
         {
             nt.Update();
         }
+        public void Initialize<T>() where T : INodetype, new()
+        {
+            id = ++id_count;
+            nt = new T(); 
+        }
     }
+
     interface INodetype
     {
-         void Update();
+        string Name { get; set; }
+        void Update();
     }
 }
